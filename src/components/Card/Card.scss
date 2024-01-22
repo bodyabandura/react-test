@@ -1,0 +1,38 @@
+.card {
+  padding: 20px;
+  width: 400px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  border-radius: 15px;
+  border: 1px #a1a1a1 solid;
+  box-shadow: 0 5px 5px #a1a1a1;
+
+  margin-bottom: 10px;
+
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__name {
+    font-weight: 600;
+  }
+
+  &__animal {
+    color: #575757;
+  }
+
+  &__founder {
+    display: flex;
+    gap: 2px;
+    // margin-bottom: 10px;
+  }
+
+  &__founderName {
+    font-weight: 600;
+  }
+}
